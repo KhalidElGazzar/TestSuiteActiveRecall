@@ -1,0 +1,7 @@
+# Active recall for Test Suite using Chai (assertion library) and Mocha testing framework.
+# 
+# Basic Structure:
+#   Entry point:                            js/App.js
+#   library (modules) that will be tested:  modules.js
+#   Testing Folder:                         js/test
+#   Testing porg:                           js/test/AppTest.js

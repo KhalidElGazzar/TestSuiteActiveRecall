@@ -1,7 +1,7 @@
 {
   "name": "testsuitactiverecall",
   "version": "1.0.0",
-  "description": "Active recall for Test suit using (Chai assertion library and Mocha testing framework)",
+  "description": "Active recall for Test suit using Chai (assertion library) and Mocha (testing framework)",
   "main": "App.js",
   "scripts": {
     "test": "mocha ./js/test/*.js"
