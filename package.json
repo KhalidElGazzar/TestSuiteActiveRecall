@@ -1,0 +1,16 @@
+{
+  "name": "testsuitactiverecall",
+  "version": "1.0.0",
+  "description": "Active recall for Test suit using (Chai assertion library and Mocha testing framework)",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mocha",
+    "Chai.js",
+    "Active Recall"
+  ],
+  "author": "KG",
+  "license": "ISC"
+}
