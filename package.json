@@ -4,7 +4,7 @@
   "description": "Active recall for Test suit using (Chai assertion library and Mocha testing framework)",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./js/test/*.js"
   },
   "keywords": [
     "Mocha",
@@ -12,5 +12,9 @@
     "Active Recall"
   ],
   "author": "KG",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
 }
