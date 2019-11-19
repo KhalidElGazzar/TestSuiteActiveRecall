@@ -1,10 +1,10 @@
 function Person(pFName, pLName,  pAge) {
     this.fName = pFName;
-    this.lName = lName;
+    this.lName = pLName;
     this.age = pAge;
 
-    greet() {
-        console.log(`Hello, my name is ${this.fName + this.lName} and I am ${this.age} years old`);
+    this.greet = function() {
+        console.log(`Hello, my name is ${this.fName} ${this.lName} and I am ${this.age} years old`);
     }
 }
 
@@ -13,16 +13,16 @@ function Pet(pName, pSpecies, pAge) {
     this.species = pSpecies;
     this.age = pAge;
 
-    greet() {
+    this.greet = function() {
         if (this.species == 'cat')
-            console.log(`Meoooow from ${this.name} the ${this.species}`);
+            console.log(`Meoooow .. I am ${this.name} the ${this.species} & I am ${this.age} years old`);
         else if (this.species == 'dog')
-            console.log(`Raf Raaf from ${this.name} the ${this.species}`);
+            console.log(`Raf Raaf .. I am ${this.name} the ${this.species} & I am ${this.age} years old`);
 
     }
 }
 
-modules.export = [
-    Pet(), 
-    Person()
-];
+module.exports = {
+    Person, 
+    Pet
+};
